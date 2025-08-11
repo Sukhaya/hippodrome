@@ -4,13 +4,13 @@
                      fileName="logs/hippodrome.log"
                      filePattern="logs/hippodrome.%d{yyyy-MM-dd}.log">
             <PatternLayout>
-                <Pattern>%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p %c{1} - %m%n</Pattern>
-            </PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss,SSS} %p %c : %m%n</Pattern>
+            </PatternLayout>>
             <Policies>
                 <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
             </Policies>
             <DefaultRolloverStrategy>
-                <Delete basePath="logs" maxDepth="1">
+                <Delete basePath="logs" maxDepth="2">
                 <IfFileName glob="hippodrome.*.log" />
                 <IfLastModified age="7d" />
             </Delete>
