@@ -1,10 +1,9 @@
 import org.junit.Test;
+import org.mockito.Mockito;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class HippodromeTest {
     //Конструктор
@@ -15,11 +14,9 @@ public class HippodromeTest {
 
     //метод getHorses
     //Проверить, что метод возвращает список, который содержит те же объекты и в той же последовательности, что и список который был передан в конструктор.
-    // При создании объекта Hippodrome передай в конструктор список из 30 разных лошадей;
 
     //метод move
     //Проверить, что метод вызывает метод move у всех лошадей.
-    // При создании объекта Hippodrome передай в конструктор список из 50 моков лошадей и воспользуйся методом verify.
 
     //метод getWinner
     //Проверить, что метод возвращает лошадь с самым большим значением distance.
@@ -50,13 +47,66 @@ public class HippodromeTest {
 
     @Test
     public void getHorsesTest() {
+        int horsesNumber = 30;
+        List<Horse> horses = createHorsesList(horsesNumber);
+
+        Hippodrome hippodrome = new Hippodrome(horses);
+        List<Horse> hippodromeHorses = hippodrome.getHorses();
+
+        assertEquals(horses, hippodromeHorses, "Списки лошадей разные");
     }
 
     @Test
     public void moveTest() {
+        int horsesNumber = 50;
+        List<Horse> horses = createMockHorsesList(horsesNumber);
+
+        Hippodrome hippodrome = new Hippodrome(horses);
+        hippodrome.move();
+
+        for (Horse horse : horses) {
+            Mockito.verify(horse).move();
+        }
     }
 
     @Test
     public void getWinnerTest() {
+        List<Horse> horses = Arrays.asList(
+                new Horse("Horse1", 3.0, 1.0),
+                new Horse("Horse2", 5.0, 1.0),
+                new Horse("Horse3", 2.0, 1.0)
+        );
+
+        Horse winnerHorse = horses.stream()
+                .max(Comparator.comparing(Horse::getDistance))
+                .orElse(null);
+        System.out.println(winnerHorse.getName());
+
+        Hippodrome hippodrome = new Hippodrome(horses);
+
+        Horse winner = hippodrome.getWinner();
+        System.out.println(winner.getName());
+        assertEquals(winnerHorse, winner, "Победитель определяется не по условию");
+    }
+
+    private List<Horse> createHorsesList(int count) {
+        List<Horse> horses = new ArrayList<>();
+        Random random = new Random();
+
+        for (int i = 0; i < count; i++) {
+            String horseName = "Horse #" + i;
+            double speed = random.nextDouble();
+            horses.add(new Horse(horseName, speed));
+        }
+        return horses;
+    }
+
+    private List<Horse> createMockHorsesList(int count) {
+        List<Horse> horses = new ArrayList<>();
+        for (int i = 0; i < count; i++) {
+            Horse horse = Mockito.mock(Horse.class);
+            horses.add(horse);
+        }
+        return horses;
     }
 }
