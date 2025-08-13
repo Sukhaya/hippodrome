@@ -1,64 +1,71 @@
-2025-08-11 16:28:11,956 DEBUG Horse - Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:28:11,958 DEBUG Horse - Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:28:11,958 DEBUG Horse - Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:28:11,958 DEBUG Horse - Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:28:11,958 DEBUG Horse - Создание Horse, имя [Lobster], скорость [2.8]
-2025-08-11 16:28:11,958 DEBUG Horse - Создание Horse, имя [Pegasus], скорость [2.9]
-2025-08-11 16:28:11,958 DEBUG Horse - Создание Horse, имя [Cherry], скорость [3.0]
-2025-08-11 16:28:11,959 DEBUG Hippodrome - Создание Hippodrome, лошадей [[Horse@87a85e1, Horse@671a5887, Horse@5552768b, Horse@3c947bc5, Horse@609db43b, Horse@55f616cf, Horse@1356d4d4]]
-2025-08-11 16:28:11,959 INFO Main - Начало скачек. Количество участников: 7
-2025-08-11 16:28:31,177 DEBUG Horse - Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:28:31,178 DEBUG Horse - Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:28:31,179 DEBUG Horse - Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:28:31,179 DEBUG Horse - Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:28:31,179 DEBUG Horse - Создание Horse, имя [Lobster], скорость [2.8]
-2025-08-11 16:28:31,179 DEBUG Horse - Создание Horse, имя [Pegasus], скорость [2.9]
-2025-08-11 16:28:31,179 DEBUG Horse - Создание Horse, имя [Cherry], скорость [3.0]
-2025-08-11 16:28:31,179 DEBUG Hippodrome - Создание Hippodrome, лошадей [[Horse@69fb6037, Horse@36d585c, Horse@87a85e1, Horse@671a5887, Horse@5552768b, Horse@3c947bc5, Horse@609db43b]]
-2025-08-11 16:28:31,179 INFO Main - Начало скачек. Количество участников: 7
-2025-08-11 16:29:42,846 DEBUG Horse - Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:29:42,847 DEBUG Horse - Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:29:42,847 DEBUG Horse - Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:29:42,847 DEBUG Horse - Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:29:42,848 DEBUG Horse - Создание Horse, имя [Lobster], скорость [2.8]
-2025-08-11 16:29:42,848 DEBUG Horse - Создание Horse, имя [Pegasus], скорость [2.9]
-2025-08-11 16:29:42,848 DEBUG Horse - Создание Horse, имя [Cherry], скорость [3.0]
-2025-08-11 16:29:42,849 DEBUG Hippodrome - Создание Hippodrome, лошадей [7]
-2025-08-11 16:29:42,849 INFO Main - Начало скачек. Количество участников: 7
-2025-08-11 16:30:55,418 DEBUG Horse - Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:30:55,419 DEBUG Horse - Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:30:55,419 DEBUG Horse - Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:30:55,420 DEBUG Horse - Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:30:55,420 DEBUG Horse - Создание Horse, имя [Lobster], скорость [2.8]
-2025-08-11 16:30:55,420 DEBUG Horse - Создание Horse, имя [Pegasus], скорость [2.9]
-2025-08-11 16:30:55,420 DEBUG Horse - Создание Horse, имя [Cherry], скорость [3.0]
-2025-08-11 16:30:55,420 DEBUG Hippodrome - Создание Hippodrome, лошадей [7]
-2025-08-11 16:30:55,421 INFO Main - Начало скачек. Количество участников: 7
-2025-08-11 16:31:15,907 INFO Main - Окончание скачек. Победитель: Cherry
-2025-08-11 16:37:50,830 DEBUG Horse - Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:37:50,832 DEBUG Horse - Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:37:50,832 DEBUG Horse - Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:37:50,832 DEBUG Horse - Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:37:50,832 DEBUG Horse - Создание Horse, имя [Lobster], скорость [2.8]
-2025-08-11 16:37:50,832 DEBUG Horse - Создание Horse, имя [Pegasus], скорость [2.9]
-2025-08-11 16:37:50,832 DEBUG Horse - Создание Horse, имя [Cherry], скорость [3.0]
-2025-08-11 16:37:50,833 DEBUG Hippodrome - Создание Hippodrome, лошадей [7]
-2025-08-11 16:37:50,833 INFO Main - Начало скачек. Количество участников: 7
-2025-08-11 16:38:11,262 INFO Main - Окончание скачек. Победитель: Cherry
-2025-08-11 16:41:15,527 DEBUG Horse - Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:41:15,530 DEBUG Horse - Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:41:15,530 DEBUG Horse - Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:41:15,531 DEBUG Horse - Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:41:15,531 ERROR Horse - Name is blank
-2025-08-11 16:42:27,434 DEBUG Horse : Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:42:27,436 DEBUG Horse : Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:42:27,436 DEBUG Horse : Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:42:27,436 DEBUG Horse : Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:42:27,436 ERROR Horse : Name is blank
-2025-08-11 16:42:45,173 DEBUG Horse : Создание Horse, имя [Bucephalus], скорость [2.4]
-2025-08-11 16:42:45,174 DEBUG Horse : Создание Horse, имя [Ace of Spades], скорость [2.5]
-2025-08-11 16:42:45,174 DEBUG Horse : Создание Horse, имя [Zephyr], скорость [2.6]
-2025-08-11 16:42:45,174 DEBUG Horse : Создание Horse, имя [Blaze], скорость [2.7]
-2025-08-11 16:42:45,174 DEBUG Horse : Создание Horse, имя [Lobster], скорость [2.8]
-2025-08-11 16:42:45,174 DEBUG Horse : Создание Horse, имя [Pegasus], скорость [2.9]
-2025-08-11 16:42:45,175 ERROR Horse : Speed is negative
+2025-08-13 15:19:27,693 DEBUG Horse : Создание Horse, имя [Bucephalus], скорость [2.4]
+2025-08-13 15:19:27,699 DEBUG Horse : Создание Horse, имя [Ace of Spades], скорость [2.5]
+2025-08-13 15:19:27,699 DEBUG Horse : Создание Horse, имя [Zephyr], скорость [2.6]
+2025-08-13 15:19:27,699 DEBUG Horse : Создание Horse, имя [Blaze], скорость [2.7]
+2025-08-13 15:19:27,699 DEBUG Horse : Создание Horse, имя [Lobster], скорость [2.8]
+2025-08-13 15:19:27,699 DEBUG Horse : Создание Horse, имя [Pegasus], скорость [2.9]
+2025-08-13 15:19:27,699 DEBUG Horse : Создание Horse, имя [Cherry], скорость [3.0]
+2025-08-13 15:19:27,700 DEBUG Hippodrome : Создание Hippodrome, лошадей [7]
+2025-08-13 15:19:27,700 INFO Main : Начало скачек. Количество участников: 7
+2025-08-13 15:19:48,134 INFO Main : Окончание скачек. Победитель: Cherry
+2025-08-13 15:56:06,986 ERROR Horse : Name is blank
+2025-08-13 15:56:06,995 DEBUG Horse : Создание Horse, имя [\n], скорость [2.8]
+2025-08-13 15:56:07,001 DEBUG Horse : Создание Horse, имя [\t], скорость [2.8]
+2025-08-13 15:56:07,004 DEBUG Horse : Создание Horse, имя [\f], скорость [2.8]
+2025-08-13 15:56:07,007 DEBUG Horse : Создание Horse, имя [\r], скорость [2.8]
+2025-08-13 15:56:07,469 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.0]
+2025-08-13 15:56:18,966 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 15:56:18,969 ERROR Horse : Distance is negative
+2025-08-13 15:56:18,969 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:56:18,969 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 15:56:19,452 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:56:19,463 ERROR Horse : Name is null
+2025-08-13 15:56:19,468 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:56:19,468 ERROR Horse : Speed is negative
+2025-08-13 15:56:19,471 ERROR Hippodrome : Horses list is empty.
+2025-08-13 15:56:19,471 ERROR Hippodrome : Horses list is null
+2025-08-13 15:56:45,089 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 15:56:45,093 ERROR Horse : Distance is negative
+2025-08-13 15:56:45,094 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:56:45,095 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 15:56:45,393 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:56:45,400 ERROR Horse : Name is null
+2025-08-13 15:56:45,407 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:56:45,408 ERROR Horse : Speed is negative
+2025-08-13 15:56:45,409 ERROR Hippodrome : Horses list is empty.
+2025-08-13 15:56:45,410 ERROR Hippodrome : Horses list is null
+2025-08-13 15:56:45,519 ERROR Horse : Name is blank
+2025-08-13 15:56:45,522 DEBUG Horse : Создание Horse, имя [\n], скорость [2.8]
+2025-08-13 15:56:45,527 DEBUG Horse : Создание Horse, имя [\t], скорость [2.8]
+2025-08-13 15:56:45,530 DEBUG Horse : Создание Horse, имя [\f], скорость [2.8]
+2025-08-13 15:56:45,532 DEBUG Horse : Создание Horse, имя [\r], скорость [2.8]
+2025-08-13 15:58:04,938 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 15:58:04,942 ERROR Horse : Distance is negative
+2025-08-13 15:58:04,943 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:58:04,943 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 15:58:05,253 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:58:05,260 ERROR Horse : Name is null
+2025-08-13 15:58:05,261 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 15:58:05,261 ERROR Horse : Speed is negative
+2025-08-13 15:58:05,264 ERROR Hippodrome : Horses list is empty.
+2025-08-13 15:58:05,265 ERROR Hippodrome : Horses list is null
+2025-08-13 15:58:05,322 ERROR Horse : Name is blank
+2025-08-13 15:58:05,324 DEBUG Horse : Создание Horse, имя [\n], скорость [2.8]
+2025-08-13 15:58:05,332 DEBUG Horse : Создание Horse, имя [\t], скорость [2.8]
+2025-08-13 15:58:05,335 DEBUG Horse : Создание Horse, имя [\f], скорость [2.8]
+2025-08-13 15:58:05,338 DEBUG Horse : Создание Horse, имя [\r], скорость [2.8]
+2025-08-13 16:00:43,851 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 16:00:43,858 ERROR Horse : Distance is negative
+2025-08-13 16:00:43,859 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 16:00:43,860 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 16:00:44,199 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 16:00:44,206 ERROR Horse : Name is null
+2025-08-13 16:00:44,207 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 16:00:44,208 ERROR Horse : Speed is negative
+2025-08-13 16:00:44,210 ERROR Hippodrome : Horses list is empty.
+2025-08-13 16:00:44,211 ERROR Hippodrome : Horses list is null
+2025-08-13 16:00:44,264 ERROR Horse : Name is blank
+2025-08-13 16:00:44,266 ERROR Horse : Name is blank
+2025-08-13 16:00:44,268 ERROR Horse : Name is blank
+2025-08-13 16:00:44,270 ERROR Horse : Name is blank
+2025-08-13 16:00:44,272 ERROR Horse : Name is blank
