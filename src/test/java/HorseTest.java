@@ -109,27 +109,29 @@ public class HorseTest {
 
     @Test
     public void moveTest() {
-        MockedStatic<Horse> mockedHorse = Mockito.mockStatic(Horse.class);
-        Horse horse = new Horse("Irma", 2.2, 3.4);
-        mockedHorse.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(0.5);
-        horse.move();
+        try(MockedStatic<Horse> mockedHorse = Mockito.mockStatic(Horse.class)) {
+            Horse horse = new Horse("Irma", 2.2, 3.4);
+            mockedHorse.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(0.5);
+            horse.move();
 
-        mockedHorse.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+            mockedHorse.verify(() -> Horse.getRandomDouble(0.2, 0.9));
+        }
     }
 
     @ParameterizedTest
     @CsvSource({
-                    "1.0, 2.0, 0.2, 0.6",
-                    "3.0, 1.0, 0.5, 2.0",
+                    "0.0, 1.0, 0.2, 0.2",
+                    "3.0, 2.0, 0.5, 4.0",
                     "5.0, 3.0, 0.9, 7.7"
             })
     public void moveDistanceUpdateTest(double distance, double speed, double randomValue, double expectedDistance) {
-        MockedStatic<Horse> mockedHorse = Mockito.mockStatic(Horse.class);
-        Horse horse = new Horse("Irma", speed, distance);
-        mockedHorse.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(randomValue);
-        horse.move();
+        try (MockedStatic<Horse> mockedHorse = Mockito.mockStatic(Horse.class)) {
+            Horse horse = new Horse("Irma", speed, distance);
+            mockedHorse.when(() -> Horse.getRandomDouble(0.2, 0.9)).thenReturn(randomValue);
+            horse.move();
 
-        assertEquals(expectedDistance, horse.getDistance(), 0.0001,
-                "Расстояние задается не по формуле: distance + speed * getRandomDouble(0.2, 0.9)");
+            assertEquals(expectedDistance, horse.getDistance(), 0.0001,
+                    "Расстояние задается не по формуле: distance + speed * getRandomDouble(0.2, 0.9)");
+        }
     }
 }

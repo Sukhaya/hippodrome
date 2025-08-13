@@ -69,3 +69,54 @@
 2025-08-13 16:00:44,268 ERROR Horse : Name is blank
 2025-08-13 16:00:44,270 ERROR Horse : Name is blank
 2025-08-13 16:00:44,272 ERROR Horse : Name is blank
+2025-08-13 17:49:42,484 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 17:49:42,490 ERROR Horse : Distance is negative
+2025-08-13 17:49:42,492 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:49:42,492 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 17:49:42,841 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:49:42,850 ERROR Horse : Name is null
+2025-08-13 17:49:42,851 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:49:42,851 ERROR Horse : Speed is negative
+2025-08-13 17:49:42,853 ERROR Hippodrome : Horses list is empty.
+2025-08-13 17:49:42,854 ERROR Hippodrome : Horses list is null
+2025-08-13 17:49:42,931 ERROR Horse : Name is blank
+2025-08-13 17:49:42,935 ERROR Horse : Name is blank
+2025-08-13 17:49:42,937 ERROR Horse : Name is blank
+2025-08-13 17:49:42,939 ERROR Horse : Name is blank
+2025-08-13 17:49:42,940 ERROR Horse : Name is blank
+2025-08-13 17:51:45,857 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 17:51:45,862 ERROR Horse : Distance is negative
+2025-08-13 17:51:45,863 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:51:45,864 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 17:51:46,188 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:51:46,195 ERROR Horse : Name is null
+2025-08-13 17:51:46,196 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:51:46,196 ERROR Horse : Speed is negative
+2025-08-13 17:51:46,199 ERROR Hippodrome : Horses list is empty.
+2025-08-13 17:51:46,200 ERROR Hippodrome : Horses list is null
+2025-08-13 17:51:46,263 ERROR Horse : Name is blank
+2025-08-13 17:51:46,266 ERROR Horse : Name is blank
+2025-08-13 17:51:46,269 ERROR Horse : Name is blank
+2025-08-13 17:51:46,271 ERROR Horse : Name is blank
+2025-08-13 17:51:46,272 ERROR Horse : Name is blank
+2025-08-13 17:51:46,291 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.0]
+2025-08-13 17:51:46,300 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.0]
+2025-08-13 17:51:46,305 DEBUG Horse : Создание Horse, имя [Irma], скорость [3.0]
+2025-08-13 17:54:04,613 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.2]
+2025-08-13 17:54:04,618 ERROR Horse : Distance is negative
+2025-08-13 17:54:04,618 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:54:04,619 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.8]
+2025-08-13 17:54:04,934 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:54:04,941 ERROR Horse : Name is null
+2025-08-13 17:54:04,942 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.2]
+2025-08-13 17:54:04,942 ERROR Horse : Speed is negative
+2025-08-13 17:54:04,944 ERROR Hippodrome : Horses list is empty.
+2025-08-13 17:54:04,945 ERROR Hippodrome : Horses list is null
+2025-08-13 17:54:05,013 ERROR Horse : Name is blank
+2025-08-13 17:54:05,017 ERROR Horse : Name is blank
+2025-08-13 17:54:05,019 ERROR Horse : Name is blank
+2025-08-13 17:54:05,022 ERROR Horse : Name is blank
+2025-08-13 17:54:05,024 ERROR Horse : Name is blank
+2025-08-13 17:54:05,043 DEBUG Horse : Создание Horse, имя [Irma], скорость [1.0]
+2025-08-13 17:54:05,045 DEBUG Horse : Создание Horse, имя [Irma], скорость [2.0]
+2025-08-13 17:54:05,047 DEBUG Horse : Создание Horse, имя [Irma], скорость [3.0]
